@@ -1,0 +1,16 @@
+.table-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.dataList-container:before {
+    margin-right: 15px;
+    content: '';
+    width: 3px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #57b846;
+}
