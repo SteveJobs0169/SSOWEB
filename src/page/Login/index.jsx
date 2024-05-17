@@ -27,7 +27,7 @@ export default function Login() {
             const {code, refreshToken} = response.data;
             if (code === 200) {
                 if (!!url) {
-                    localStorage.setItem('refreshToken', refreshToken);
+                    // localStorage.setItem('refreshToken', refreshToken);
                     window.location.href = url + "?refreshToken=" + refreshToken;
                 }else {
                     navigate("/home/admin")
